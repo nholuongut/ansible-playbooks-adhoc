@@ -1,0 +1,6 @@
+---
+
+- hosts: all
+  tasks:
+    - name: site | hello world
+      shell: echo "Hi! Ansible is working"
